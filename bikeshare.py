@@ -277,7 +277,7 @@ def revenue(df, travel_time_minutes):
 
     # Display revenue
     rev = travel_time_minutes * price
-    print("Your revenue for the chosen dataframe and give price is: ${}".format(rev))
+    print("Your revenue for the chosen dataframe and given price is: ${}".format(rev))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
