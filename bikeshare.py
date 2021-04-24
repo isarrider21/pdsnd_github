@@ -18,7 +18,7 @@ def get_filters():
         (int) day - key of the day of week to filter by; see days keys and values
         (str) insights - filters if user wants to see and excerpt of the data and details on NaNs
     """
-    print("\n" + "-"*40 + "\nHello! Let\'s explore some US bikeshare data!\n" + "-"*40)
+    print("\n" + "-"*40 + "\nHello! Let\'s explore some US bikeshare data! (Version: Github)\n" + "-"*40)
 
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
