@@ -10,9 +10,7 @@ Explore Bikeshare Data
 Interactive program to explore and analyze bikeshare data from Chicago, NYC and Washington D.C. on several statistical variables.
 
 ### Files used
-chicago.csv
-new_york_city.csv
-washington.csv
+chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
 Florian Fecher,
