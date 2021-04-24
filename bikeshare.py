@@ -277,7 +277,7 @@ def revenue(df, travel_time_minutes):
 
     # Display revenue
     rev = travel_time_minutes * price
-    print("Your revenue for the chosen dataframe and give price is: ${}".format(rev))
+    print("Your revenue for the chosen dataframe and given price is: ${}".format(rev))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -319,7 +319,7 @@ def main():
         elif stat_input == 5:
             revenue(df, travel_time_minutes)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to restart the program? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
